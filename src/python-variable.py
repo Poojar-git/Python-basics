@@ -68,3 +68,5 @@ def fruitss():
     fruit="banana"
     print(fruit)
 fruitss()
+
+print('Hello','World')
