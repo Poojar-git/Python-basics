@@ -51,4 +51,12 @@ def my_func():
     an='nice'
     print('Python is' + an)
 my_func()
-print(an)#error: name 'an' is not defined
+#print(an)#error: name 'an' is not defined
+
+#To create a global variable inside a function, you can use the global keyword.
+def thefunc():
+    global name 
+    name = "Pooja"
+    print(name)
+thefunc()
+print(name)
