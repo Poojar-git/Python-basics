@@ -60,3 +60,11 @@ def thefunc():
     print(name)
 thefunc()
 print(name)
+
+#Also, use the global keyword if you want to change a global variable inside a function.
+fruit="apple"
+def fruitss():
+    global fruit
+    fruit="banana"
+    print(fruit)
+fruitss()
