@@ -43,5 +43,12 @@ x = "nice"
 
 def myfunc():
   print("Python is " + x)
-
+print(x)
 myfunc()
+
+#Local Variables: Variables that are created inside a function are known as local variables.
+def my_func():
+    an='nice'
+    print('Python is' + an)
+my_func()
+print(an)#error: name 'an' is not defined
