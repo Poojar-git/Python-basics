@@ -37,3 +37,11 @@ x, y, z = fruits
 print(x)
 print(y)
 print(z)
+
+#Global Variables: Variables that are created outside of a function are known as global variables.
+x = "nice"
+
+def myfunc():
+  print("Python is " + x)
+
+myfunc()
