@@ -21,3 +21,12 @@ myVariableName = "John"
 MyVariableName = "John"
 #Snake Case
 my_variable_name = "John"
+
+#Assign multiple values to multiple variables
+a, b, c = "Orange", "Banana", "Cherry"
+print(a)
+#One Value to Multiple Variables
+x = y = z = "Orange"
+print(x)
+print(y)
+print(z)
