@@ -15,3 +15,7 @@ print(type(y))
 print(type(z))
 
 #Multi Words Variable Names
+#Camel Case
+myVariableName = "John"
+#Pascal Case
+MyVariableName = "John"
