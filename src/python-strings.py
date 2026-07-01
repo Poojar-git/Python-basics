@@ -50,4 +50,11 @@ age = 36
 #This will produce an error:
 txt = f"My name is John, I am  {age}"
 print(txt)
-
+#Placeholder and modifiers
+price=49
+print(f"The price is {price:.2f} dollars") #.2f means 2 decimal places
+#Escape characters: You can use escape characters to include special characters in a string. For example, to include a double quote inside a string, you can use the escape character \.
+#You will get an error if you use double quotes inside a string that is surrounded by double quotes:
+#To fix this problem, use the escape character \":
+txt = "She said, \"Hello!\""
+print(txt)
