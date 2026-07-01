@@ -45,4 +45,9 @@ print(a.split(',')) #Split a string into a list
 a="Hello"
 b="World"
 print(a+" "+b)
+#String formatting: You can use the format() method to insert values into a string.
+age = 36
+#This will produce an error:
+txt = f"My name is John, I am  {age}"
+print(txt)
 
