@@ -58,3 +58,4 @@ print(f"The price is {price:.2f} dollars") #.2f means 2 decimal places
 #To fix this problem, use the escape character \":
 txt = "She said, \"Hello!\""
 print(txt)
+#String Methods
