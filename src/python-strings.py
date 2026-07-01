@@ -5,4 +5,11 @@ print("Hello 'Good Morning'")
 #Assign string to a varaible
 a= "Greeting"
 print(a)
+#Multiline string
+a = """This is a multiline string.
+It can span multiple lines."""
+print(a)
+#Note: in the result, the line breaks are inserted at the same position as in the code.
+
+
 
