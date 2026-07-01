@@ -59,3 +59,14 @@ print(f"The price is {price:.2f} dollars") #.2f means 2 decimal places
 txt = "She said, \"Hello!\""
 print(txt)
 #String Methods
+#Method	    Purpose
+#upper()	Convert to uppercase
+#lower()	Convert to lowercase
+#strip()	Remove spaces
+#replace()	Replace text
+#split()	Convert string to list
+#join()	Convert list to string
+#find()	Find substring index
+#count()	Count occurrences
+#startswith()	Check beginning of string
+#endswith()	Check end of string
