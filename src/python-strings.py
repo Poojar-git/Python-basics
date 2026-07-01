@@ -14,8 +14,12 @@ print(a)
 message="Have a nice day"
 print(message[2]) #Accessing characters in a string
 #Looping through strings
+fruits = ["apple", "banana", "cherry"]
 for x in fruits:
     print(x)
-    
+#Length of string
+product="laptop"
+print(len(product))
+
 
 
