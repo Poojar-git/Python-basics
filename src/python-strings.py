@@ -23,6 +23,9 @@ print(len(product))
 #check string
 address="I live in bangalore"
 print("bangalore" in address)
+#using if check
+if "bangalore" in address:
+    print("Yes, 'bangalore' is present.")
 
 
 
