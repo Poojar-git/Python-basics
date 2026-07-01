@@ -13,6 +13,9 @@ print(a)
 #Strings are arrays of bytes representing unicode characters
 message="Have a nice day"
 print(message[2]) #Accessing characters in a string
-
+#Looping through strings
+for x in fruits:
+    print(x)
+    
 
 
