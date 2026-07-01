@@ -10,6 +10,9 @@ a = """This is a multiline string.
 It can span multiple lines."""
 print(a)
 #Note: in the result, the line breaks are inserted at the same position as in the code.
+#Strings are arrays of bytes representing unicode characters
+message="Have a nice day"
+print(message[2]) #Accessing characters in a string
 
 
 
