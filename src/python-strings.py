@@ -34,8 +34,14 @@ print("Delhi" not in address)
 #Slicing: You can return a range of characters by using the slice syntax.
 a="Welcome to Python"
 print(a[1:3])
+#Modify Strings
+a=" pooja r"
+print(a.upper()) #Convert to uppercase
+print(a.lower()) #Convert to lowercase
+print(a.strip()) #Remove whitespace from the beginning or end
+print(a.replace('p', 'r')) #Replace a character with another
+print(a.split(',')) #Split a string into a list
 
-
-
+3S
 
 
