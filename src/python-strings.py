@@ -41,7 +41,8 @@ print(a.lower()) #Convert to lowercase
 print(a.strip()) #Remove whitespace from the beginning or end
 print(a.replace('p', 'r')) #Replace a character with another
 print(a.split(',')) #Split a string into a list
-
-3S
-
+#string concatenation
+a="Hello"
+b="World"
+print(a+" "+b)
 
