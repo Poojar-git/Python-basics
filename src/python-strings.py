@@ -20,6 +20,9 @@ for x in fruits:
 #Length of string
 product="laptop"
 print(len(product))
+#check string
+address="I live in bangalore"
+print("bangalore" in address)
 
 
 
