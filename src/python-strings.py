@@ -31,8 +31,9 @@ if "Delhi" not in address:
     print("Delhi, is not in address")
 #or
 print("Delhi" not in address)
-#Slicing
-
+#Slicing: You can return a range of characters by using the slice syntax.
+a="Welcome to Python"
+print(a[1:3])
 
 
 
