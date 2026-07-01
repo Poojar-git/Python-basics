@@ -26,6 +26,13 @@ print("bangalore" in address)
 #using if check
 if "bangalore" in address:
     print("Yes, 'bangalore' is present.")
+#Check if not
+if "Delhi" not in address:
+    print("Delhi, is not in address")
+#or
+print("Delhi" not in address)
+
+
 
 
 
