@@ -31,6 +31,8 @@ if "Delhi" not in address:
     print("Delhi, is not in address")
 #or
 print("Delhi" not in address)
+#Slicing
+
 
 
 
