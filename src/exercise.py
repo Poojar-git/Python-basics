@@ -249,13 +249,29 @@
 #     num=num//10
 # print(reverse)
 
-n=9
-if n<2:
-    print("Not Prime")
-else:
-    for i in range(2, n):
-     if n%i==0:
-       print("Not prime")
-       break
-    else:
-        print("Prime")
+#prime numbers
+# n=3
+# if n<2:
+#     print("Not Prime")
+# else:
+#     for i in range(2, n):
+#      if n%i==0:
+#        print("Not prime")
+#        break
+#     else:
+#         print("Prime")
+
+n=200
+# if n<2:
+#     print("Not prime")
+# else:
+#     prime=True
+
+#     for i in range(2, n):
+#         if n%i==0:
+#             prime=False
+#             break
+# if prime:
+#     print("Prime")
+# else:
+#     print("Not prime")
