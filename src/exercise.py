@@ -241,10 +241,21 @@
 #     num = num //10
 # print(reverse)
 
-num=1200
-reverse=""
-while num>0:
-    digit=num%10
-    reverse= reverse+str(digit)
-    num=num//10
-print(reverse)
+# num=1200
+# reverse=""
+# while num>0:
+#     digit=num%10
+#     reverse= reverse+str(digit)
+#     num=num//10
+# print(reverse)
+
+n=9
+if n<2:
+    print("Not Prime")
+else:
+    for i in range(2, n):
+     if n%i==0:
+       print("Not prime")
+       break
+    else:
+        print("Prime")
