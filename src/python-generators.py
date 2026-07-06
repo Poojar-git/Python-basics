@@ -90,6 +90,38 @@
 # for i in fibonacci(10):
 #     print(i)
 
-
+# def numbers():
+#     for i in range(1, 11):
+#         yield i
+# for i in numbers():
+#     print(i)
     
+# numbers=[i*i for i in range(11)]
+# for i in numbers:
+#     print(i)
 
+# numbers=(i*i for i in range(1, 11))
+# for i in numbers:
+#     print(i)
+
+# def even_num():
+#     for i in range(1, 11):
+#         if i%2==0:
+#             yield i
+# for i in even_num():
+#     print(i)
+
+# def fibonacci(n):
+#     a,b=0,1
+#     for i in range(1, n+1):
+#         yield a
+#         a,b=b,a+b
+# for i in fibonacci(3):
+#     print(i)
+
+# def fibonacci(n):
+#     n1,n2=0,1
+#     for i in range(n):
+#         print(n1, end=" ")
+#         n1, n2=n2, n1+n2
+# fibonacci(5)
