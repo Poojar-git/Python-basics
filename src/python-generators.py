@@ -47,8 +47,8 @@
 # def generator():
 #     for i in range(1, 101):
 #         yield i
-# numbers=generator()
-# for num in numbers:
+#
+# for num in generators:
 #     print(num)
 
 # def numbers():
