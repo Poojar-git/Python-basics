@@ -275,3 +275,11 @@ n=200
 #     print("Prime")
 # else:
 #     print("Not prime")
+
+# list1=[1, 2, 3, 1, 4]
+# num=1
+# count=0
+# for i in list1:
+#     if num==i:
+#         count+=1
+# print(count)
