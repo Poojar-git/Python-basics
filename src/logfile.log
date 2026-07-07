@@ -1,0 +1,13 @@
+DEBUG:root:Debug
+INFO:root:info
+WARNING:root:warning
+2026-07-07 13:19:34,407 DEBUG Debug
+2026-07-07 13:19:34,407 INFO info
+2026-07-07 13:19:34,407 WARNING warning
+2026-07-07 13:20:47,050 DEBUG Debug python-logging.py 4 root
+2026-07-07 13:20:47,050 INFO info python-logging.py 5 root
+2026-07-07 13:20:47,050 WARNING warning python-logging.py 6 root
+2026-07-07 14:14:53,097 WARNING warning python-logging.py 6 root
+2026-07-07 14:17:02,404 DEBUG Variable a is assigned with 10 python-logging.py 4 root
+2026-07-07 14:17:02,404 INFO This is a log function python-logging.py 5 root
+2026-07-07 14:17:02,404 WARNING There might be unexpected error python-logging.py 6 root
