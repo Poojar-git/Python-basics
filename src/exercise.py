@@ -415,17 +415,17 @@ n=200
 # print(count)
 
 #non repeated digits count
-n=123443
-list1=[]
-for i in range(0,10):
-    list1.append(0)
-while n>0:
-    r=n%10
-    list1[r]=list1[r]+1
-    n=n//10
-count=0
-for i in range(len(list1)):
-    if list1[i]==1:
-        count+=1
-print(count)
+# n=123443
+# list1=[]
+# for i in range(0,10):
+#     list1.append(0)
+# while n>0:
+#     r=n%10
+#     list1[r]=list1[r]+1
+#     n=n//10
+# count=0
+# for i in range(len(list1)):
+#     if list1[i]==1:
+#         count+=1
+# print(count)
 
