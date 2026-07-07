@@ -283,3 +283,149 @@ n=200
 #     if num==i:
 #         count+=1
 # print(count)
+
+#return last digit
+# num=123
+# print(num%10)
+
+#return second last digit
+# num=123
+# print(num//10%10)
+
+#sum of last digit of 2 numbers
+# a=23
+# b=34
+# print(a%10+b%10)
+
+# n=9
+# m=3
+# print(n%m==0)
+
+#of given 5 num how many r even
+# num=12345
+# count=0
+# while num>0:
+#     r=num%10
+#     if r%2==0:
+#         count+=1
+#     num=num//10
+# print(count)
+
+#isPrime
+# def isPrime(n):
+#     count=0
+#     for i in range(1,n+1):
+#         if n%i==0:
+#             count+=1
+#     if count==2:
+#         print("Prime")
+#     else:
+#         print("Not prime")
+# isPrime(20)
+
+#factorial
+# def fact(n):
+#     if n==0 or n==1:
+#         return 1
+#     else:
+#         return n*fact(n-1)
+# print(fact(4))
+
+# def fact(n):
+#     for i in range(1,n):
+#         n=n*i
+#     print(n)
+# fact(4)
+
+#swap 2 numbers
+# a,b=2,3
+# a=a+b
+# b=a-b
+# a=a=b
+# print(a,b)
+
+#n fibonacci
+# n=int(input("enter:"))
+# n1,n2=0,1
+# print("Fibonacci:",n1,n2,end=" ")
+# for i in range(2,n+1):
+#     n3=n1+n2
+#     n1,n2=n2,n3
+#     print(n3, end=" ")
+# def fibonacci(n):
+#     n1,n2=0,1
+#     print(n1,n2,end=" ")
+#     for i in range(2,n):
+#         n3=n1+n2
+#         n1,n2=n2,n3
+#         print(n3,end=" ")
+# fibonacci(5)
+# n=int(input("enter:"))
+# list1=[0,1]
+# for i in range(2,n+1):
+#     list1.append(list1[-1]+list1[-2])
+# print(list1[n-1])
+
+#nth prime
+# n=int(input("enter:"))
+# def isPrime(n):
+#     count=0
+#     for i in range(1,n+1):
+#         if n%i==0:
+#             count+=1
+#     return (count==2)
+# list1=[]
+# for i in range(1,100):
+#     if isPrime(i):
+#         list1.append(i)
+# print(list1[n-1])
+
+#number of prime numbers in specified range
+# def isPrime(n):
+#     count=0
+#     for i in range(1,n+1):
+#         if n%i==0:
+#             count+=1
+#     return (count==2)
+# a=int(input("enter"))
+# b=int(input("enter"))
+# count=0
+# for i in range(a, b+1):
+#     if isPrime(i):
+#         count+=1
+# print(count)
+
+#all digits count
+# num=123
+# count=0
+# while num>0:
+#     num%10
+#     count+=1
+#     num=num//10
+# print(count)
+
+#unique even count
+# n=1234
+# count=0
+# while n>0:
+#     r=n%10
+#     if r%2==0:
+#         count+=1
+#     n=n//10
+# print(count)
+
+#non repeated digits count
+n=123443
+list1=[]
+for i in range(0,10):
+    list1.append(0)
+while n>0:
+    r=n%10
+    list1[r]=list1[r]+1
+    n=n//10
+count=0
+for i in range(len(list1)):
+    if list1[i]==1:
+        count+=1
+print(count)
+
