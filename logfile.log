@@ -1,0 +1,6 @@
+2026-07-07 14:20:39,939 DEBUG Variable a is assigned with 10 python-logging.py 4 root
+2026-07-07 14:20:39,939 INFO This is a log function python-logging.py 5 root
+2026-07-07 14:20:39,939 WARNING There might be unexpected error python-logging.py 6 root
+2026-07-07 14:20:39,939 INFO default value giving python-logging.py 9 root
+2026-07-07 14:20:42,684 DEBUG dividing value by a  python-logging.py 14 root
+2026-07-07 14:20:42,685 INFO Divison complete python-logging.py 23 root

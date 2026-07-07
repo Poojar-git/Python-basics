@@ -11,3 +11,19 @@ WARNING:root:warning
 2026-07-07 14:17:02,404 DEBUG Variable a is assigned with 10 python-logging.py 4 root
 2026-07-07 14:17:02,404 INFO This is a log function python-logging.py 5 root
 2026-07-07 14:17:02,404 WARNING There might be unexpected error python-logging.py 6 root
+2026-07-07 14:18:48,933 DEBUG Variable a is assigned with 10 python-logging.py 4 root
+2026-07-07 14:18:48,934 INFO This is a log function python-logging.py 5 root
+2026-07-07 14:18:48,934 WARNING There might be unexpected error python-logging.py 6 root
+2026-07-07 14:18:48,934 INFO default value giving python-logging.py 9 root
+2026-07-07 14:18:51,187 DEBUG dividing value by a  python-logging.py 14 root
+2026-07-07 14:18:51,187 WARNING zero division log message python-logging.py 18 root
+2026-07-07 14:18:51,187 ERROR cannot divisible by zero python-logging.py 19 root
+2026-07-07 14:18:51,188 INFO Divison complete python-logging.py 23 root
+2026-07-07 14:27:07,740 ERROR Exception occured python-logging.py 31 root
+2026-07-07 14:27:32,320 ERROR Exception occured python-logging.py 31 Pooja
+2026-07-07 14:33:03,740 ERROR Exception occured python-logging.py 31 Pooja
+Traceback (most recent call last):
+  File "c:\Users\PoojaR\Python-basics\src\python-logging.py", line 29, in <module>
+    a=10/0
+      ~~^~
+ZeroDivisionError: division by zero
