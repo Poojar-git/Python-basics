@@ -1,0 +1,6 @@
+from pydantic import BaseModel
+class employee(BaseModel):
+    name: str
+    age: int
+emp1=employee(name="Pooja", age= 25)
+print(emp)
