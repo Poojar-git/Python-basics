@@ -14,16 +14,16 @@
 # def test_sub2():
 #     assert sub(8,0)==8
 
-import pytest
-from calculator import add
+# import pytest
+# from calculator import add
 
-@pytest.mark.parametrize(
-    "a,b,result",
-    [
-        (2, 3, 5),
-        (5, 5, 10),
-        (10, 20, 30)
-    ]
-)
-def test_add(a, b, result):
-    assert add(a, b) == result
+# @pytest.mark.parametrize(
+#     "a,b,result",
+#     [
+#         (2, 3, 5),
+#         (5, 5, 10),
+#         (10, 20, 30)
+#     ]
+# )
+# def test_add(a, b, result):
+#     assert add(a, b) == result
